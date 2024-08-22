@@ -1,0 +1,15 @@
+{
+  "name": "dimo_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --reporter mochawesome"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.13.3",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3"
+  }
+}
